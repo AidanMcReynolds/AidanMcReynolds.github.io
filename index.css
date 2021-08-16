@@ -37,14 +37,32 @@
     background-color: #674CED;
     color: white;
 }
-#main{
+#namesection{
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
     height: 90vh;
     display: flex;
+}
+#CVsection iframe {
+    width: 100%;
+    max-width: 1000px;
+    height: 90vh;
+
+}
+#CVsection{
+    text-align: center;
+}
+#portsection{
+    height: 100vh;
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section{
     margin-top: 34pt;
-    
 }
 body{
     background-color: #4FB9F7;
